@@ -1,0 +1,22 @@
+name: sdp
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0.0
+  - cudatoolkit=11.8       
+  - transformers>=4.30.0     
+  - tokenizers              
+  - pandas>=1.5.0
+  - pyyaml
+  - javalang
+  - openpyxl              
+  - xlsxwriter            
+  - scikit-learn
+  - tqdm                     
+  - pip
+  - pip:
+      - accelerate           
+      - jsonpickle        
