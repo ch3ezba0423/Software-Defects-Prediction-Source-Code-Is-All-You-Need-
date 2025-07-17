@@ -21,7 +21,7 @@ This repository reproduces the experiments from our paper:
 conda env create -f environment.yml
 conda activate promise-java-extract
 ```
-3. Download PROMISE dataset and place under `data/raw/` following the structure in `config.yaml`.
+3. Download [PROMISE dataset](https://github.com/feiwww/PROMISE-backup) and place under `data/raw/` following the structure in `config.yaml`.
 
 ## Pipeline
 
