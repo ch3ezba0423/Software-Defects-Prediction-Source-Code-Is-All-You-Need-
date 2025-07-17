@@ -1,4 +1,3 @@
-# scripts/04_tokenize.py
 import argparse
 import logging
 from pathlib import Path
@@ -32,7 +31,7 @@ def tokenize_and_save(
         max_length: maximum token length (with truncation/padding)
         output_path: path to save the torch file
         token_mode: 'none', 'name', or 'id' for project tokens
-        project_id_map: mapping from project name to numeric ID
+        project_id_map: mapping from project name to numeric ID to add context token [PROJECT_i]
     """
     # Initialize tokenizer
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
